@@ -43,6 +43,18 @@
         flex:0 0 16.66667%;
         max-width: 16.66667%;
     }
+    .col-sm-5 {
+        flex: 0 0 41.66665%;
+        max-width: 41.66665%;
+    }
+    .col-sm-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .col-sm-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
 }
 
 /* laptop */

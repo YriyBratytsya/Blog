@@ -60,6 +60,52 @@ body {
     background-color: #23b7a4;
     color: white;
 }
+.subtitle {
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+.subtitle > a {
+    border-left: 10px solid #e1e6ea;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #292f36;
+}
+.paragraf {
+    margin-bottom: 40px;
+}
+.icons {
+    display: flex;
+    margin-bottom: 100px;
+}
+.icon {
+    background-color: #c8cdd0;
+    margin: 1px;
+
+}
+.numbs {
+    padding-left: -15px;
+    padding-right: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbs > div {
+    width: 50px;
+    height: 50px;
+    background-color: #23b7a4;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: white;
+}
+.h3 {
+    margin-bottom: 5px;
+}
+.p {
+    margin-bottom: 10px;
+}
 
 /* tablet */
 @media (min-width:768px) {
