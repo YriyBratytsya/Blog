@@ -178,11 +178,26 @@ a {
     position: absolute;
     bottom: 0px ;
     background-color: #1d2126;
+    display: none;
 }
+.photos:hover .a {
+    display: block;
+}
+.plus {
+    position: absolute;
+    top: 85px;
+    left: 175px;
+    display: none;
+}
+.photos:hover .plus {
+    display: block;
+}
+
 .photos a {
     color: white;
     font-size: 18px;
 }
+
 .showMore {
     height: 165px;
     text-align: center;
@@ -194,6 +209,19 @@ a {
     padding: 20px;
     color: white;
     font-size: 14px;
+}
+.works {
+    text-align: center;
+}
+.works > h2 {
+    font-size: 17px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.works > p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #c8cdd0;
 }
 
 /* tablet */
