@@ -140,6 +140,9 @@ a {
     position: relative;
     margin-bottom: 100px;
 }
+.flexbox:hover img {
+    opacity: 0.7;
+}
 .flexbox:hover .boxes {
     display: flex;
 }
@@ -179,6 +182,9 @@ a {
     bottom: 0px ;
     background-color: #1d2126;
     display: none;
+    width: 92%;
+    padding-right: 15px;
+    
 }
 .photos:hover .a {
     display: block;
@@ -232,7 +238,6 @@ a {
 .p {
     color: #dcdfe1;
     font-size: 16px;
-    margin-bottom: 120px;
 }
 .h1 {
     margin-top: 60px;
